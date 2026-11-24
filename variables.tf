@@ -1,11 +1,11 @@
 variable "aws_region" {
   description = "AWS deployment region"
   type        = string
-  default     = "ap-southeast-1"
+  default     = "ap-south-1"
 }
 
 variable "project_name" {
-  description = "Unique project name"
+  description = "Project resource naming prefix"
   type        = string
   default     = "hrishiraj-p18-gitops"
 }
